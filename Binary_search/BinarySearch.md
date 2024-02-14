@@ -94,7 +94,7 @@ You should think about binary search anytime the problem provides anything sorte
 
 There is a more creative way to use binary search - on a solution space/answer. A very common type of problem is "what is the max/min that something can be done". Binary search can be used if the following criteria are met:
 
-1. You can quickly (in $*O(n)*$ or better) verify if the task is possible for a given number `x`.
+1. You can quickly (in $O(n)$ or better) verify if the task is possible for a given number `x`.
 2. If the task is possible for a number `x`, and you are looking for:
     - A maximum, then it is also possible for all numbers less than `x`.
     - A minimum, then it is also possible for all numbers greater than `x`.
